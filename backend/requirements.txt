@@ -1,0 +1,14 @@
+Django>=4.2,<5.0
+dj-database-url==2.2.0
+djangorestframework>=3.14
+djangorestframework-simplejwt>=5.3
+psycopg2-binary>=2.9
+django-cors-headers>=4.3
+celery>=5.3
+redis>=5.0
+django-filter>=23.5
+drf-yasg>=1.21
+Pillow>=10.0
+django-storages[s3]>=1.14
+python-dotenv>=1.0
+gunicorn

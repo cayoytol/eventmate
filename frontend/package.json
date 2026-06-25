@@ -1,0 +1,36 @@
+{
+    "name": "eventmate-frontend",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@2gis/mapgl": "^1.74.0",
+        "@types/qrcode": "^1.5.6",
+        "axios": "^1.7.9",
+        "leaflet": "^1.9.4",
+        "next": "^15.1.6",
+        "next-intl": "^3.23.0",
+        "qrcode": "^1.5.4",
+        "qrcode.react": "^4.2.0",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
+        "zustand": "^5.0.2"
+    },
+    "devDependencies": {
+        "@types/leaflet": "^1.9.21",
+        "@types/node": "^22",
+        "@types/react": "^19",
+        "@types/react-dom": "^19",
+        "autoprefixer": "^10.4.17",
+        "eslint": "^9",
+        "eslint-config-next": "^15.1.6",
+        "postcss": "^8.4.35",
+        "tailwindcss": "^3.4.1",
+        "typescript": "^5"
+    }
+}

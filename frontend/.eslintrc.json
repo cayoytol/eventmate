@@ -1,0 +1,20 @@
+{
+    "extends": "next/core-web-vitals",
+    "rules": {
+        "no-restricted-syntax": [
+            "error",
+            {
+                "selector": "Literal[value^='/auth/']",
+                "message": "❌ Use ENDPOINTS.* constants instead of hardcoded '/auth/' paths"
+            },
+            {
+                "selector": "Literal[value^='/api/v1/']",
+                "message": "❌ Never hardcode full API URLs — use ENDPOINTS constants"
+            },
+            {
+                "selector": "Literal[value^='/marketplace/']",
+                "message": "❌ Use ENDPOINTS.* constants instead of hardcoded '/marketplace/' paths"
+            }
+        ]
+    }
+}
